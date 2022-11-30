@@ -19,6 +19,7 @@ import { AdNavbarComponent } from './ad-navbar/ad-navbar.component';
 import { AddFriendComponent } from './add-friend/add-friend.component';
 import { ViewFriendComponent } from './view-friend/view-friend.component';
 import { GallaryComponent } from './gallary/gallary.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 const myroute:Routes =[
 
@@ -58,6 +59,10 @@ const myroute:Routes =[
     path :"ga",
     component :GallaryComponent
   },
+  {
+    path :"ca",
+    component :ContactusComponent
+  },
   
 ]
 
@@ -76,7 +81,8 @@ const myroute:Routes =[
     AdNavbarComponent,
     AddFriendComponent,
     ViewFriendComponent,
-    GallaryComponent
+    GallaryComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,
