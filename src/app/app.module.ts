@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { FormsModule } from '@angular/forms';
 import { EmpLoginComponent } from './emp-login/emp-login.component';
+import { EmpRegComponent } from './emp-reg/emp-reg.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminLoginComponent,
-    EmpLoginComponent
+    EmpLoginComponent,
+    EmpRegComponent
   ],
   imports: [
     BrowserModule,
