@@ -19,7 +19,7 @@ export class EmpLoginComponent {
     let data:any={"ename":this.ename,"psw":this.psw}
     console.log(data)
 
-    if ( this.ename=="admin" && this.psw=="12345")
+    if ( this.ename=="emp" && this.psw=="12345")
 
     {
       this.route.navigate(['/ac'])

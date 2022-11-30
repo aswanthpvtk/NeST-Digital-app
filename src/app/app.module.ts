@@ -10,6 +10,7 @@ import { EmpRegComponent } from './emp-reg/emp-reg.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule, Routes } from '@angular/router';
+import { AddCourseComponent } from './add-course/add-course.component';
 
 const myroute:Routes =[
 
@@ -29,6 +30,10 @@ const myroute:Routes =[
     path :"nemp",
     component :EmpRegComponent
   },
+  {
+    path :"adc",
+    component :AddCourseComponent
+  },
   
 ]
 
@@ -39,7 +44,8 @@ const myroute:Routes =[
     EmpLoginComponent,
     EmpRegComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    AddCourseComponent
   ],
   imports: [
     BrowserModule,
