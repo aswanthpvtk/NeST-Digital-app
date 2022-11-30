@@ -16,6 +16,7 @@ import { ApiComponent } from './api/api.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ViewCourseComponent } from './view-course/view-course.component';
 import { AdNavbarComponent } from './ad-navbar/ad-navbar.component';
+import { AddFriendComponent } from './add-friend/add-friend.component';
 
 const myroute:Routes =[
 
@@ -43,6 +44,10 @@ const myroute:Routes =[
     path :"vc",
     component :ViewCourseComponent
   },
+  {
+    path :"af",
+    component :AddFriendComponent
+  },
   
   
 ]
@@ -59,7 +64,8 @@ const myroute:Routes =[
     EmpNavbarComponent,
     ApiComponent,
     ViewCourseComponent,
-    AdNavbarComponent
+    AdNavbarComponent,
+    AddFriendComponent
   ],
   imports: [
     BrowserModule,
