@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule, Routes } from '@angular/router';
 import { AddCourseComponent } from './add-course/add-course.component';
+import { EmpNavbarComponent } from './emp-navbar/emp-navbar.component';
 
 const myroute:Routes =[
 
@@ -45,7 +46,8 @@ const myroute:Routes =[
     EmpRegComponent,
     HomeComponent,
     NavbarComponent,
-    AddCourseComponent
+    AddCourseComponent,
+    EmpNavbarComponent
   ],
   imports: [
     BrowserModule,
