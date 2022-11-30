@@ -14,6 +14,7 @@ import { AddCourseComponent } from './add-course/add-course.component';
 import { EmpNavbarComponent } from './emp-navbar/emp-navbar.component';
 import { ApiComponent } from './api/api.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { ViewCourseComponent } from './view-course/view-course.component';
 
 const myroute:Routes =[
 
@@ -37,6 +38,11 @@ const myroute:Routes =[
     path :"adc",
     component :AddCourseComponent
   },
+  {
+    path :"vc",
+    component :ViewCourseComponent
+  },
+  
   
 ]
 
@@ -50,7 +56,8 @@ const myroute:Routes =[
     NavbarComponent,
     AddCourseComponent,
     EmpNavbarComponent,
-    ApiComponent
+    ApiComponent,
+    ViewCourseComponent
   ],
   imports: [
     BrowserModule,
