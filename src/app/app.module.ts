@@ -12,6 +12,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule, Routes } from '@angular/router';
 import { AddCourseComponent } from './add-course/add-course.component';
 import { EmpNavbarComponent } from './emp-navbar/emp-navbar.component';
+import { ApiComponent } from './api/api.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 const myroute:Routes =[
 
@@ -47,13 +49,15 @@ const myroute:Routes =[
     HomeComponent,
     NavbarComponent,
     AddCourseComponent,
-    EmpNavbarComponent
+    EmpNavbarComponent,
+    ApiComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    RouterModule.forRoot(myroute)
+    RouterModule.forRoot(myroute),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
