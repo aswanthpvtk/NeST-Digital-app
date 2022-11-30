@@ -1,0 +1,28 @@
+
+<app-emp-navbar></app-emp-navbar>
+<div class="container">
+    <div class="row mt-4">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Friend Name</th>
+                    <th scope="col">Friend NickName</th>
+                    <th scope="col">Describe Friend</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let i of friends">
+                    <td>{{i.name}}</td>
+                    <td>{{i.friendName}}</td>
+                    <td>{{i.friendNickName}}</td>
+                    <td>{{i.DescribeYourFriend}}</td>
+                    <td>{{i.courseVenue}}</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>
+
