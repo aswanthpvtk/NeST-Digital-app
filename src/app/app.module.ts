@@ -15,6 +15,7 @@ import { EmpNavbarComponent } from './emp-navbar/emp-navbar.component';
 import { ApiComponent } from './api/api.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ViewCourseComponent } from './view-course/view-course.component';
+import { AdNavbarComponent } from './ad-navbar/ad-navbar.component';
 
 const myroute:Routes =[
 
@@ -57,7 +58,8 @@ const myroute:Routes =[
     AddCourseComponent,
     EmpNavbarComponent,
     ApiComponent,
-    ViewCourseComponent
+    ViewCourseComponent,
+    AdNavbarComponent
   ],
   imports: [
     BrowserModule,
