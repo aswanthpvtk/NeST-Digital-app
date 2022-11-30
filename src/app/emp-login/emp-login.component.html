@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row g-3 mt-6">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <h1></h1>
+            <h1 class="text-center">Employee login</h1>
+            <div class="container">
+                <div class="row g-3 mt-4">
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                        <label for="" class="form-label">Username:</label>
+                        <input name="ename" [(ngModel)]="ename" type="text" class="form-control">
+
+                    </div>
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        
+                        <label for="" class="form-label">password:</label>
+                        <input name="psw" [(ngModel)]="psw" type="text" class="form-control">
+
+                    </div>
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                        <button (click)="readValues()" class="btn btn-success" href="/vc">Login</button>
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                    <a href="/ulog">New employee Regisytation</a>
+                </div>
+                    
+                
+            </div>
+        </div>
+    </div>
+</div>
