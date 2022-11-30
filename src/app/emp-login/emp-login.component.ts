@@ -22,7 +22,7 @@ export class EmpLoginComponent {
     if ( this.ename=="emp" && this.psw=="12345")
 
     {
-      this.route.navigate(['/ac'])
+      this.route.navigate(['/adc'])
  
    }
  
