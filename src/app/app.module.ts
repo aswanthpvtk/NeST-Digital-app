@@ -20,6 +20,7 @@ import { AddFriendComponent } from './add-friend/add-friend.component';
 import { ViewFriendComponent } from './view-friend/view-friend.component';
 import { GallaryComponent } from './gallary/gallary.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 const myroute:Routes =[
 
@@ -63,6 +64,10 @@ const myroute:Routes =[
     path :"ca",
     component :ContactusComponent
   },
+  {
+    path :"au",
+    component :AboutusComponent
+  },
   
 ]
 
@@ -82,7 +87,8 @@ const myroute:Routes =[
     AddFriendComponent,
     ViewFriendComponent,
     GallaryComponent,
-    ContactusComponent
+    ContactusComponent,
+    AboutusComponent
   ],
   imports: [
     BrowserModule,
