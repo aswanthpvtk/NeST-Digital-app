@@ -18,6 +18,7 @@ import { ViewCourseComponent } from './view-course/view-course.component';
 import { AdNavbarComponent } from './ad-navbar/ad-navbar.component';
 import { AddFriendComponent } from './add-friend/add-friend.component';
 import { ViewFriendComponent } from './view-friend/view-friend.component';
+import { GallaryComponent } from './gallary/gallary.component';
 
 const myroute:Routes =[
 
@@ -53,6 +54,10 @@ const myroute:Routes =[
     path :"vf",
     component :ViewFriendComponent
   },
+  {
+    path :"ga",
+    component :GallaryComponent
+  },
   
 ]
 
@@ -70,7 +75,8 @@ const myroute:Routes =[
     ViewCourseComponent,
     AdNavbarComponent,
     AddFriendComponent,
-    ViewFriendComponent
+    ViewFriendComponent,
+    GallaryComponent
   ],
   imports: [
     BrowserModule,
