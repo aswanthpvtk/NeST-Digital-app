@@ -14,10 +14,13 @@ export class ViewCourseComponent {
  
      (Response)=>
      {
+      this.loading=false
+      console.log(Response)
        this.courses=Response;
      }
    )
   }
  
  courses:any = []
+ loading:boolean=true
 }

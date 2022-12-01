@@ -15,6 +15,8 @@ export class ViewFriendComponent {
 
     (Response)=>
     {
+      this.loading=false
+      console.log(Response)
       this.friends=Response;
     }
   )
@@ -22,4 +24,5 @@ export class ViewFriendComponent {
 
 
  friends:any = []
+ loading:boolean=true
 }
